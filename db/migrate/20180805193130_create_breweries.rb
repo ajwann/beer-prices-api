@@ -5,7 +5,7 @@ class CreateBreweries < ActiveRecord::Migration[6.0]
       t.string :address
       t.string :city
       t.string :state
-      t.int :zip
+      t.string :zip
       t.string :country
       t.string :website
 
